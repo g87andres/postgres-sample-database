@@ -1,3 +1,7 @@
+/*
+	Identify how many rentals had payments that exceeded the film's rental rate	
+*/
+
 WITH payment_count_per_rental AS (
 	SELECT rental_id, COUNT(payment_id) AS payment_count
 	FROM payment
