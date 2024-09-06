@@ -1,3 +1,7 @@
+/*
+	For each film category, identify which films had the most rentals, and what was the sum of payments it had	
+*/
+
 WITH rental_payment_counts AS (
 	SELECT 
 		i.film_id,
