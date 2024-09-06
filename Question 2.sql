@@ -1,3 +1,7 @@
+/*
+	Identify which MPAA rating had the most rentals in the first quarter of 2006.
+	Also identify how many rentals this category had over the previous category.
+*/
 WITH rentals AS (
 	SELECT 
 		f.film_id,
