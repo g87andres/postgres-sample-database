@@ -1,3 +1,6 @@
+/*
+	Identify the top 10 actors who were in the most films released in 2006
+*/
 WITH films AS (
 	SELECT 
 		f.film_id,
